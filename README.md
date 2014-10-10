@@ -2,6 +2,7 @@ Build Tools for Unity 3D
 ===========================
 
 **Unity 4.5+ is required**
+<br>
 **Unity Pro is required**
 
 A tool for easy automating and customizing Unity 3D build process.
@@ -26,7 +27,7 @@ Writing Custom Build Modules
 To make a custom build module you need to create a class, derived from CustomBuildModule. The GUI automatically scans all available modules and provides means to use them in your configuration.
 
 The module class can be decorated with *Description* and *Browsable* attributes to set custom title or hide module from GUI.
-It's not required but highly recommended to decorate class with "Guid" attribute, to preserve the integrity of configuration files after refactoring.
+It's not required but highly recommended to decorate class with *Guid* attribute, to preserve the integrity of configuration files after refactoring.
 
 ```csharp
 using System;
