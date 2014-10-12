@@ -5,7 +5,9 @@ Build Tools for Unity 3D
 <br>
 **Unity Pro is required**
 
-A tool for easy automating and customizing Unity 3D build process.
+A tool for easy automating and customizing Unity 3D build process. This tool is used in development of [Braveland](http://www.tortugateam.com)
+
+![Screenshot](doc/images/screen.jpg)
 
 It uses standard BuildPipeline.Build, stores configuration in readable and editable JSON files, provides GUI for managing configurations and modularity for customizing build process.
 
