@@ -10,7 +10,7 @@ using UnityEditor;
 
 namespace PPTech.Builder.Modules
 {
-	[Description("Replace In Code")]	
+	[Description("Replace In Code")]
 	[Guid("83AD9618-FFC3-4805-8A82-14692A0CD8CC")]
 	public class ReplaceInCode : BuilderModule
 	{

@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -220,7 +221,10 @@ namespace PPTech.Builder
 							}
 						}
 					}
-					continue;
+				}
+				if (asset is Texture)
+				{
+					Resources.UnloadAsset(asset);
 				}
 			}		
 
@@ -231,6 +235,9 @@ namespace PPTech.Builder
 					target.Add(r);
 				}
 			}
+
+			Resources.UnloadUnusedAssets();
+			GC.Collect();
 		}
 
 		private void EditGuidsList(List<string> guids)

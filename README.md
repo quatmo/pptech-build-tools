@@ -126,7 +126,7 @@ namespace PPTech.Builder.Tools
 }
 ```
 
-Nested configurations and configuration options
+Nested Configurations and Configuration Options
 -----------------------------------------------
 
 Build configurations can be nested using "Include Configuration" build module. 
@@ -137,7 +137,7 @@ If at least one option group is defined, the selection control will appear which
 The "option" configuration can be executed via "Include Option" build module which behaves like "Include Configuration", but the included configuration depends on the option selected for the group.
 
 
-External libraries and license
+External Libraries and License
 -----------------------
 
 This code uses following third-party libraries:
